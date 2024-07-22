@@ -3,4 +3,7 @@ let weight = 68;
 let height = 1.7;
 
 // 四則演算
-console.log(weight / (height * height))
+const bmi = (weight / (height * height));
+
+// コンソールへの出力
+console.log(bmi);
